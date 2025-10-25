@@ -1,0 +1,77 @@
+[
+  {
+    "id": "plan-001",
+    "planName": "Solo Fitness Plan",
+    "type": "Individual",
+    "description": "Perfect for individuals focusing on personal fitness goals with flexible timing.",
+    "features": [
+      "Unlimited Gym Access",
+      "1 Personal Training Session/Week",
+      "Access to Cardio & Weight Zone",
+      "Free Body Composition Checkup (Monthly)",
+      "Locker & Shower Facilities"
+    ],
+    "durationOptions": ["1 Month", "3 Months", "6 Months"],
+    "suitableFor": "Single person or self-trainers"
+  },
+  {
+    "id": "plan-002",
+    "planName": "Couple Wellness Plan",
+    "type": "Couple",
+    "description": "Train together and stay motivated as a couple with shared access and discounts.",
+    "features": [
+      "Dual Access (2 Members)",
+      "Couple Training Sessions",
+      "Yoga & Zumba Classes",
+      "Diet Consultation for Two",
+      "Weekend Flex Hours"
+    ],
+    "durationOptions": ["1 Month", "3 Months", "12 Months"],
+    "suitableFor": "Couples or partners"
+  },
+  {
+    "id": "plan-003",
+    "planName": "Family Active Plan",
+    "type": "Family",
+    "description": "Stay fit together! Designed for small families to enjoy a healthy lifestyle.",
+    "features": [
+      "Up to 4 Family Members",
+      "Access to Kids’ Fitness Zone",
+      "Family Fitness Events",
+      "Group Discounts on Supplements",
+      "Flexible Schedule for Each Member"
+    ],
+    "durationOptions": ["3 Months", "6 Months", "12 Months"],
+    "suitableFor": "Small families (up to 4)"
+  },
+  {
+    "id": "plan-004",
+    "planName": "Corporate Health Plan",
+    "type": "Corporate",
+    "description": "Ideal for companies aiming to promote workplace fitness and mental well-being.",
+    "features": [
+      "Custom Group Sessions",
+      "Stress Management Workshops",
+      "Health Seminars & Fitness Challenges",
+      "Flexible Corporate Billing",
+      "On-Site Trainer Availability (Optional)"
+    ],
+    "durationOptions": ["6 Months", "12 Months"],
+    "suitableFor": "Offices and organizations"
+  },
+  {
+    "id": "plan-005",
+    "planName": "Student Power Plan",
+    "type": "Student",
+    "description": "Affordable and energetic plan for students balancing fitness with studies.",
+    "features": [
+      "Discounted Monthly Rates",
+      "Access Before/After Class Hours",
+      "Cardio + Functional Training",
+      "Motivational Group Sessions",
+      "Exam-Time Pause Option"
+    ],
+    "durationOptions": ["1 Month", "3 Months", "6 Months"],
+    "suitableFor": "College & university students"
+  }
+]
