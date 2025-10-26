@@ -1,27 +1,26 @@
-import { Suspense } from "react";
+import React from "react";
 import "./App.css";
 
-import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar/Navbar";
 import Pricing from "./components/pricingoptions/Pricing";
+import Resultchart from "./components/ResultChart/Resultchart";
 
-const pricingPromise = fetch('/public/pricingData.json').then(res => res.json());
+const coverPromise = fetch("/public/cover.json").then(res=> res.json())
+const pricingPromise = fetch("/pricingData.json").then(res => res.json());
 
 function App() {
   return (
     <>
       <header>
-      <Navbar></Navbar>
-        
+        <Navbar />
       </header>
-   
-      <main>
-    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-      <Pricing pricingPromise={pricingPromise}></Pricing>
-    </Suspense>
-      </main>
-      <footer>
 
-      </footer>
+      <main>
+        <Pricing pricingPromise={pricingPromise} coverPromise={coverPromise} />
+        <Resultchart></Resultchart>
+      </main>
+
+      <footer></footer>
     </>
   );
 }
