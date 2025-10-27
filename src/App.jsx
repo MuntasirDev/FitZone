@@ -6,8 +6,8 @@ import Pricing from "./components/pricingoptions/Pricing";
 import Resultchart from "./components/ResultChart/Resultchart";
 import Footer from "./components/footer/Footer";
 
-const coverPromise = fetch("/public/cover.json").then(res=> res.json())
-const pricingPromise = fetch("/pricingData.json").then(res => res.json());
+// Import JSON directly for static deploy
+import pricingData from "../public/pricingData.json";
 
 function App() {
   return (
@@ -17,16 +17,16 @@ function App() {
       </header>
 
       <main>
-        <Pricing pricingPromise={pricingPromise} coverPromise={coverPromise} />
-        <Resultchart></Resultchart>
+        {/* Pass pricing data as a resolved Promise */}
+        <Pricing pricingPromise={Promise.resolve(pricingData)} />
+        <Resultchart />
       </main>
 
       <footer>
-        <Footer></Footer>
+        <Footer />
       </footer>
     </>
   );
 }
-
 
 export default App;

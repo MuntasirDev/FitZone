@@ -3,7 +3,7 @@
     "id": "plan-001",
     "planName": "Solo Fitness Plan",
     "type": "Individual",
-    "image": "https://i.ibb.co/rR0pRkWp/entrenar-solo-6571.jpg",
+    "image": "https://i.ibb.co.com/rR0pRkWp/entrenar-solo-6571.jpg",
     "description": "Perfect for individuals focusing on personal fitness goals with flexible timing.",
     "features": [
       "Unlimited Gym Access",
@@ -13,7 +13,11 @@
       "Locker & Shower Facilities"
     ],
     "durationOptions": ["1 Month", "3 Months", "6 Months"],
-    "pricing": { "1 Month": 3500, "3 Months": 9500, "6 Months": 17500 },
+    "pricing": {
+      "1 Month": 3500,
+      "3 Months": 9500,
+      "6 Months": 17500
+    },
     "suitableFor": "Single person or self-trainers",
     "mostPopular": true
   },
@@ -21,7 +25,7 @@
     "id": "plan-002",
     "planName": "Couple Wellness Plan",
     "type": "Couple",
-    "image": "https://i.ibb.co/SwT1brc7/couple-portrait-smile-gym-988095-5536.jpg",
+    "image": "https://i.ibb.co.com/SwT1brc7/couple-portrait-smile-gym-988095-5536.jpg",
     "description": "Train together and stay motivated as a couple with shared access and discounts.",
     "features": [
       "Dual Access (2 Members)",
@@ -31,7 +35,11 @@
       "Weekend Flex Hours"
     ],
     "durationOptions": ["1 Month", "3 Months", "12 Months"],
-    "pricing": { "1 Month": 6000, "3 Months": 16500, "12 Months": 58000 },
+    "pricing": {
+      "1 Month": 6000,
+      "3 Months": 16500,
+      "12 Months": 58000
+    },
     "suitableFor": "Couples or partners",
     "mostPopular": true
   },
@@ -39,7 +47,7 @@
     "id": "plan-003",
     "planName": "Family Active Plan",
     "type": "Family",
-    "image": "https://i.ibb.co/93NFxsmF/OIP.webp",
+    "image": "https://i.ibb.co.com/93NFxsmF/OIP.webp",
     "description": "Stay fit together! Designed for small families to enjoy a healthy lifestyle.",
     "features": [
       "Up to 4 Family Members",
@@ -49,14 +57,18 @@
       "Flexible Schedule for Each Member"
     ],
     "durationOptions": ["3 Months", "6 Months", "12 Months"],
-    "pricing": { "3 Months": 24000, "6 Months": 44000, "12 Months": 78000 },
+    "pricing": {
+      "3 Months": 24000,
+      "6 Months": 44000,
+      "12 Months": 78000
+    },
     "suitableFor": "Small families (up to 4)"
   },
   {
     "id": "plan-004",
     "planName": "Corporate Health Plan",
     "type": "Corporate",
-    "image": "https://i.ibb.co/qYrLWtDr/modern-gym-with-cardio-equipment-975188-100716.jpg",
+    "image": "https://i.ibb.co.com/qYrLWtDr/modern-gym-with-cardio-equipment-975188-100716.jpg",
     "description": "Ideal for companies aiming to promote workplace fitness and mental well-being.",
     "features": [
       "Custom Group Sessions",
@@ -66,14 +78,17 @@
       "On-Site Trainer Availability (Optional)"
     ],
     "durationOptions": ["6 Months", "12 Months"],
-    "pricing": { "6 Months": 80000, "12 Months": 150000 },
+    "pricing": {
+      "6 Months": 80000,
+      "12 Months": 150000
+    },
     "suitableFor": "Offices and organizations"
   },
   {
     "id": "plan-005",
     "planName": "Student Power Plan",
     "type": "Student",
-    "image": "https://i.ibb.co/HDfVnXpF/shutterstock-1663683841-800x-progressive.jpg",
+    "image": "https://i.ibb.co.com/HDfVnXpF/shutterstock-1663683841-800x-progressive.jpg",
     "description": "Affordable and energetic plan for students balancing fitness with studies.",
     "features": [
       "Discounted Monthly Rates",
@@ -83,15 +98,18 @@
       "Exam-Time Pause Option"
     ],
     "durationOptions": ["1 Month", "3 Months", "6 Months"],
-    "pricing": { "1 Month": 2500, "3 Months": 6900, "6 Months": 12500 },
+    "pricing": {
+      "1 Month": 2500,
+      "3 Months": 6900,
+      "6 Months": 12500
+    },
     "suitableFor": "College & university students",
-    "mostPopular": true
-  },
+    "mostPopular": true},
   {
     "id": "plan-006",
     "planName": "Athlete Performance Plan",
     "type": "Professional",
-    "image": "https://i.ibb.co/mr9P5LPQ/man-lifting-heavy-weight-gym-doing-hard-workout-1041233-115.jpg",
+    "image": "https://i.ibb.co.com/mr9P5LPQ/man-lifting-heavy-weight-gym-doing-hard-workout-1041233-115.jpg",
     "description": "Designed for athletes and sports professionals who want to maximize endurance and strength.",
     "features": [
       "Advanced Strength & Conditioning Programs",
@@ -101,7 +119,11 @@
       "Access to Sports Physiotherapy"
     ],
     "durationOptions": ["3 Months", "6 Months", "12 Months"],
-    "pricing": { "3 Months": 15000, "6 Months": 28000, "12 Months": 52000 },
+    "pricing": {
+      "3 Months": 15000,
+      "6 Months": 28000,
+      "12 Months": 52000
+    },
     "suitableFor": "Athletes and sports professionals",
     "mostPopular": true
   },
@@ -109,7 +131,7 @@
     "id": "plan-007",
     "planName": "Silver Wellness Plan",
     "type": "Senior",
-    "image": "https://i.ibb.co/Y7DRcXMW/stock-photo-cheerful-senior-male-is-smiling-while-resting-in-sport-center-710398540.jpg",
+    "image": "https://i.ibb.co.com/Y7DRcXMW/stock-photo-cheerful-senior-male-is-smiling-while-resting-in-sport-center-710398540.jpg",
     "description": "Gentle, health-oriented plan for seniors focusing on mobility, balance, and well-being.",
     "features": [
       "Low-Impact Fitness Classes",
@@ -119,7 +141,11 @@
       "Social Wellness Activities"
     ],
     "durationOptions": ["1 Month", "3 Months", "6 Months"],
-    "pricing": { "1 Month": 3000, "3 Months": 8500, "6 Months": 16000 },
+    "pricing": {
+      "1 Month": 3000,
+      "3 Months": 8500,
+      "6 Months": 16000
+    },
     "suitableFor": "Senior citizens (age 55+)",
     "mostPopular": false
   },
@@ -127,7 +153,7 @@
     "id": "plan-008",
     "planName": "WeightX",
     "type": "Transformation",
-    "image": "https://i.ibb.co/0RhPXd8Z/21027-Blog-1200x675-1.jpg",
+    "image": "https://i.ibb.co.com/0RhPXd8Z/21027-Blog-1200x675-1.jpg",
     "description": "A complete 360° body transformation program with expert supervision and tracking.",
     "features": [
       "Personal Trainer (Daily Check-ins)",
@@ -137,15 +163,17 @@
       "Motivation Coaching"
     ],
     "durationOptions": ["3 Months", "6 Months"],
-    "pricing": { "3 Months": 18000, "6 Months": 33000 },
-    "suitableFor": "Anyone targeting visible transformation goals",
-    "mostPopular": true
+    "pricing": {
+      "3 Months": 18000,
+      "6 Months": 33000
+    },
+    "suitableFor": "Anyone targeting visible transformation goals","mostPopular": true
   },
   {
     "id": "plan-009",
     "planName": "Weekend Warrior Plan",
     "type": "Flexible",
-    "image": "https://i.ibb.co/nNSnx5yZ/fit-muscular-man-doing-biceps-workouts-with-dumbbells-gym-copy-space-484651-5193.jpg",
+    "image": "https://i.ibb.co.com/nNSnx5yZ/fit-muscular-man-doing-biceps-workouts-with-dumbbells-gym-copy-space-484651-5193.jpg",
     "description": "Specially made for busy professionals who can only train on weekends.",
     "features": [
       "Access on Fridays, Saturdays & Sundays",
@@ -155,15 +183,19 @@
       "Guest Pass for a Friend (Monthly)"
     ],
     "durationOptions": ["1 Month", "3 Months", "6 Months"],
-    "pricing": { "1 Month": 2700, "3 Months": 7200, "6 Months": 13500 },
-    "suitableFor": "Working professionals with weekend-only availability",
-    "mostPopular": false
+    "pricing": {
+      "1 Month": 2700,
+      "3 Months": 7200,
+      "6 Months": 13500
+    },
+    "suitableFor": "Working professionals with weekend-only availability"
+    , "mostPopular": false
   },
   {
     "id": "plan-010",
     "planName": "Ultimate Elite Plan",
     "type": "VIP",
-    "image": "https://i.ibb.co/7NWRM7bL/a9ffc548-95b1-4ae7-bebc-dc6293766165-scaled.jpg",
+    "image": "https://i.ibb.co.com/7NWRM7bL/a9ffc548-95b1-4ae7-bebc-dc6293766165-scaled.jpg",
     "description": "An exclusive premium plan for elite members seeking the best facilities and personal care.",
     "features": [
       "24/7 Private Gym Access",
@@ -171,17 +203,19 @@
       "Unlimited Spa & Steam Access",
       "Priority Booking for All Classes",
       "Premium Lounge & Refreshments"
+      
     ],
     "durationOptions": ["6 Months", "12 Months"],
-    "pricing": { "6 Months": 95000, "12 Months": 170000 },
-    "suitableFor": "High-end clients and fitness enthusiasts",
-    "mostPopular": false
-  },
+    "pricing": {
+      "6 Months": 95000,
+      "12 Months": 170000
+    },
+    "suitableFor": "High-end clients and fitness enthusiasts","mostPopular": false  },
   {
     "id": "plan-011",
     "planName": "Yoga & Mindfulness Plan",
     "type": "Wellness",
-    "image": "https://i.ibb.co/gMq7S6Kx/R.jpg",
+    "image": "https://i.ibb.co.com/gMq7S6Kx/R.jpg",
     "description": "Focus on holistic wellness, combining yoga, meditation, and stress management.",
     "features": [
       "Daily Yoga Sessions",
@@ -191,14 +225,18 @@
       "Mindfulness Journaling"
     ],
     "durationOptions": ["1 Month", "3 Months", "6 Months"],
-    "pricing": { "1 Month": 2800, "3 Months": 7500, "6 Months": 13500 },
+    "pricing": {
+      "1 Month": 2800,
+      "3 Months": 7500,
+      "6 Months": 13500
+    },
     "suitableFor": "Anyone looking to reduce stress and improve mental health"
   },
   {
     "id": "plan-012",
     "planName": "Bootcamp Challenge Plan",
     "type": "Intense",
-    "image": "https://i.ibb.co/tMrvS9bq/Best-Workouts-for-Rear-Delts.png",
+    "image": "https://i.ibb.co.com/tMrvS9bq/Best-Workouts-for-Rear-Delts.png",
     "description": "High-intensity bootcamp sessions for those aiming for rapid fitness improvements.",
     "features": [
       "High-Intensity Interval Training (HIIT)",
@@ -208,8 +246,13 @@
       "Nutrition & Meal Plan Guidance"
     ],
     "durationOptions": ["1 Month", "2 Months", "3 Months"],
-    "pricing": { "1 Month": 4200, "2 Months": 7800, "3 Months": 11500 },
+    "pricing": {
+      "1 Month": 4200,
+      "2 Months": 7800,
+      "3 Months": 11500
+    },
     "suitableFor": "Fitness enthusiasts looking for fast results and challenge",
     "mostPopular": true
+    
   }
 ]

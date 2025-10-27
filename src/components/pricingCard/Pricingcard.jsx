@@ -1,6 +1,7 @@
 import { Check, CircleCheckBig } from "lucide-react";
 import React from "react";
 
+
 const Pricingcard = ({ pricing }) => {
   return (
     <div className="Sora border border-gray-800 bg-gradient-to-b from-black via-gray-900 to-black rounded-xl shadow-xl p-6 transition-transform duration-1000 gap-6 flex flex-col hover:scale-105 relative">
