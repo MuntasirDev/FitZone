@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Pricing from "./components/pricingoptions/Pricing";
 import Resultchart from "./components/ResultChart/Resultchart";
+import Footer from "./components/footer/Footer";
 
 const coverPromise = fetch("/public/cover.json").then(res=> res.json())
 const pricingPromise = fetch("/pricingData.json").then(res => res.json());
@@ -20,7 +21,9 @@ function App() {
         <Resultchart></Resultchart>
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }
